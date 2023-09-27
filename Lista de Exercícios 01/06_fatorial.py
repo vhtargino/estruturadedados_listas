@@ -2,11 +2,11 @@
 
 num = int(input("Digite um número inteiro positivo: "))
 
-contador = 1
-resultado = 1
+contador = num
+fatorial = 1
 
-while contador < num:
-    resultado *= contador
-    contador += 1
+while contador > 0:
+    fatorial *= contador
+    contador -= 1
 
-print(f"O fatorial de {num} é {resultado}")
+print(fatorial)
